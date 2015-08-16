@@ -9,12 +9,34 @@ function show_posts(inc) {
 
       var file = filemem[i];
 
-      console.log(file);
+      if (filecache[file.path]) {
+
+          // We can just display it..
+          $('#articles').append(article_container_html(filecache[file.path], file.id));
+
+      } else {
+
+          // We need to download it first..
+         $('#articles').append(article_container_html("a", file.id));
+         article_load(file);
+
+      }
 
     }
 
   } else {
     console.log("No articles.")
   }
+
+}
+
+function article_container_html(html, id) {
+  return "<div id='"+id+"'>"+html+"</div>";
+}
+
+function md2html(md) {
+
+  var converter = new showdown.Converter();
+  return converter.makeHtml(md);
 
 }
