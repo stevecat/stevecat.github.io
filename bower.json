@@ -1,0 +1,24 @@
+{
+  "name": "stevecat.github.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stevecat/stevecat.github.io",
+  "authors": [
+    "Steve Guntrip <stevecat@github.com>"
+  ],
+  "description": "GitHub api blog thing",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "primer-css": "~2.3.3"
+  }
+}

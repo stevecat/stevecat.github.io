@@ -1,0 +1,32 @@
+@import "bower_components/primer-css/css/primer.css";
+@import "bower_components/octicons/octicons/octicons.css";
+
+
+body {
+  background-color:#fff;
+}
+
+.masthead {
+padding-top: 1rem;
+padding-bottom: 1rem;
+margin-bottom: 1rem;
+background-color: #BE3B77;
+color:#fff;
+}
+
+.masthead .title {
+  font-weight:bold;
+  font-size:1.3em;
+}
+
+.masthead .sub {
+  font-style: italic;
+}
+
+#blog-sub {
+  border-bottom: 1px solid #eee;
+}
+
+#blog-sub .menu-item {
+  font-size:0.9em;
+}
