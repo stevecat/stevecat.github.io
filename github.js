@@ -97,7 +97,8 @@ function find_files(articles_uri) {
 
         });
 
-        console.log(filemem);
+        // Reverse the array
+        filemem.reverse();
 
         // Now download and display some posts!
         show_posts(0);
