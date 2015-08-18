@@ -22,6 +22,9 @@ function display_posts() {
   // Clear filelist in memory
   filemem=[];
 
+  // Reset display
+  reset_display();
+
   // Collect the SHA for the latest commit.
   var uri = "https://api.github.com/repos/"+username+"/"+repo+"/git/refs";
 

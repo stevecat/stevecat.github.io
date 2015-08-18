@@ -17,7 +17,7 @@ function show_posts(inc) {
       } else {
 
           // We need to download it first..
-         $('#articles').append(article_container_html("a", file.id));
+         $('#articles').append(article_container_html("<span class=\"mega-octicon octicon-gear gearspin\"></span>", file.id));
          article_load(file);
 
       }
@@ -111,4 +111,8 @@ function fill_dates() {
 
   $('#blog-sub').html(html);
 
+}
+
+function reset_display() {
+  $('#blog-sub').html("<span class=\"octicon octicon-gear gearspin\"></span>");
 }
