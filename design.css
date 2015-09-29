@@ -10,7 +10,7 @@ body {
 padding-top: 1rem;
 padding-bottom: 1rem;
 margin-bottom: 1rem;
-background-color: #BE3B77;
+background-color: #c5aab6;
 color:#fff;
 }
 
@@ -29,6 +29,10 @@ color:#fff;
 
 #blog-sub .menu-item {
   font-size:0.9em;
+}
+
+.container {
+  margin-top:25px;
 }
 
 /* octicons */
