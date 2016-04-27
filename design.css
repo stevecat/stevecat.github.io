@@ -1,7 +1,3 @@
-@import "bower_components/primer-css/css/primer.css";
-@import "bower_components/octicons/octicons/octicons.css";
-
-
 body {
   background-color:#fff;
 }
@@ -76,4 +72,59 @@ color:#fff;
   -ms-animation: spin 2s linear infinite;
   -o-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+}
+
+/* catnap */
+
+body.catnap {
+  background-color: #ececec;
+}
+
+.catnap .container {
+  width:600px;
+}
+
+.catnap .logo {
+  background-image: url("catnap/logo.png");
+  background-size:100% 100%;
+  display:inline-block;
+  width:160px;
+  height:160px;
+}
+
+.catnap .header {
+  font-size:3em;
+  font-weight:bold;
+}
+
+.catnap .description {
+  font-size:1.3em;
+  color:#7b7b7b;
+}
+
+.catnap .lump {
+  border-bottom: 2px solid #828282;
+  margin: 10px 0px;
+  padding:10px 0px 20px 0px;
+}
+
+.catnap .lump .header {
+  font-size:1.8em;
+  font-weight:bold;
+  margin-bottom:8px;
+}
+
+.catnap .screenshot div {
+  margin-top:-3px;
+  margin-left:5px;
+  font-size:1em;
+  font-style: italic;
+}
+
+.catnap ul {
+  margin-left:10px;
+}
+
+.catnap ul li {
+  margin-bottom:10px;
 }
